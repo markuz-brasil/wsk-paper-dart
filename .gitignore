@@ -1,0 +1,12 @@
+node_modules
+.sass-cache
+dist
+.tmp
+
+# system
+.DS_Store
+
+# dart
+packages
+build
+web

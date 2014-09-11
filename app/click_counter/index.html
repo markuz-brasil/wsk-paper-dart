@@ -1,0 +1,15 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<polymer-element name="click-counter" attributes="count">
+  <template>
+    <!-- build:css click_counter/click_counter-min.css -->
+    <link rel="stylesheet" href="click_counter.css">
+    <!-- endbuild -->
+
+    <div>
+      <button on-click="{{increment}}">Click me</button><br>
+      <span>(click count: {{count}})</span>
+    </div>
+  </template>
+  <script type="application/dart" src="click_counter.dart"></script>
+</polymer-element>
+
